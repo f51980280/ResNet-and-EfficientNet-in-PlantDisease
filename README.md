@@ -5,7 +5,8 @@ In this project, we try to implement a compound scaling method proposed by「Eff
 
 ## We had implement the task base on following backbone modules:
 1. Pytorch.torchvision. 
-2. https://github.com/optuna/optuna .  # for Optuna HyperparameterSearch. 
+2. https://github.com/lukemelas/EfficientNet-PyTorch. 
+3. https://github.com/optuna/optuna .  # for Optuna HyperparameterSearch. 
 
 ## Hardware
 The following specs were used to create the original solution.
@@ -24,18 +25,14 @@ OpenCV, needed by demo and visualization.
 
 ## Several files must be changed by manually
 ```
-file1: 
-  {your evn path}\Lib\site-packages\torch\include\torch\csrc\jit\argument_spec.h
-  example:
-  {C:\Miniconda3\envs\py36}\Lib\site-packages\torch\include\torch\csrc\jit\argument_spec.h(190)
-    static constexpr size_t DEPTH_LIMIT = 128;
-      change to -->
-    static const size_t DEPTH_LIMIT = 128;
-file2: 
-  {your evn path}\Lib\site-packages\torch\include\pybind11\cast.h
-  example:
-  {C:\Miniconda3\envs\py36}\Lib\site-packages\torch\include\pybind11\cast.h(1449)
-    explicit operator type&() { return *(this->value); }
-      change to -->
-    explicit operator type&() { return *((type*)this->value); }
+mobilenet_scaling.py: 
+  {your evn path}/lib/python3.7/site-packages/torchvision/models/mobilenet.py -> change to mobilenet.py(mobilenet_scaling.py)
+
+resnet_scaling.py: 
+  {your evn path}/lib/python3.7/site-packages/torchvision/models/resnet.py -> change to resnet.py(resnet_scaling.py)
+  
+model.py:
+ {your evn path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
 ```
+
+
