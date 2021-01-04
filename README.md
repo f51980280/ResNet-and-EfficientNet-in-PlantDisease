@@ -20,6 +20,8 @@ Intel® Xeon® Gold 6136 Processor @ 3.0GHHz.
 Using Anaconda is strongly recommended.  
 Python >= 3.6(Conda).   
 PyTorch 1.3.  
+https://github.com/lukemelas/EfficientNet-PyTorch. 
+https://github.com/optuna/optuna .  # for Optuna HyperparameterSearch. 
 torchvision that matches the PyTorch installation. You can install them together at pytorch.org to make sure of this.  
 OpenCV, needed by demo and visualization. 
 
