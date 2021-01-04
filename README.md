@@ -57,3 +57,4 @@ optional arguments:
   --sample_num SAMPLE_NUM, -s SAMPLE_NUM, Hyperparameter sample number, default as 10. 
 ```
 Fianlly, you can get the best scaling dimension for your dataset and model.  
+![image]
