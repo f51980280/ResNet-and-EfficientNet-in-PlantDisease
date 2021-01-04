@@ -26,6 +26,9 @@ torchvision that matches the PyTorch installation.
 You can install them together at pytorch.org to make sure of this.  
 OpenCV, needed by demo and visualization. 
 
+## Dataset
+[PlantDisease](https://www.kaggle.com/saroz014/plantdisease) 
+
 ## Several files must be changed by manually
 ```
 mobilenet_scaling.py: 
