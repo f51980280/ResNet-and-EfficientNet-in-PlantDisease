@@ -36,6 +36,7 @@ model.py:
 ```
 
 ## Use HyperSearch_with_model_scaling.py
+If you follow the below rules, you will train the model which you want to use.   
 
 ```
 python HyperSearch_with_model_scaling.py -h  # for more help
