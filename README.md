@@ -56,3 +56,4 @@ optional arguments:
   --batch_size BATCH_SIZE, -b BATCH_SIZE, Choose batch size, default as 32. 
   --sample_num SAMPLE_NUM, -s SAMPLE_NUM, Hyperparameter sample number, default as 10. 
 ```
+Fianlly, you can get the best scaling dimension for your dataset and model.  
