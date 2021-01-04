@@ -26,10 +26,10 @@ OpenCV, needed by demo and visualization.
 ## Several files must be changed by manually
 ```
 mobilenet_scaling.py: 
-  {your evn path}/lib/python3.7/site-packages/torchvision/models/mobilenet.py -> change to mobilenet.py(mobilenet_scaling.py)
+  {your env path}/lib/python3.7/site-packages/torchvision/models/mobilenet.py -> change to mobilenet.py(mobilenet_scaling.py)
 
 resnet_scaling.py: 
-  {your evn path}/lib/python3.7/site-packages/torchvision/models/resnet.py -> change to resnet.py(resnet_scaling.py)
+  {your env path}/lib/python3.7/site-packages/torchvision/models/resnet.py -> change to resnet.py(resnet_scaling.py)
   
 model.py:
  {your evn path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
