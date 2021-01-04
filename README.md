@@ -35,4 +35,31 @@ model.py:
  {your evn path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
 ```
 
-## Use 
+## Use HyperSearch_with_model_scaling.py
+
+```
+python HyperSearch_with_model_scaling.py -h  # for more help
+usage: HyperSearch_with_model_scaling.py [-h]
+                                         [--train_data_path TRAIN_DATA_PATH]
+                                         [--valid_data_path VALID_DATA_PATH]
+                                         [--model MODEL] [--maxrange MAXRANGE]
+                                         [--batch_size BATCH_SIZE]
+                                         [--sample_num SAMPLE_NUM]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --train_data_path TRAIN_DATA_PATH, -tp TRAIN_DATA_PATH
+                        Note for trainning data set path
+  --valid_data_path VALID_DATA_PATH, -vp VALID_DATA_PATH
+                        note for validation data set path
+  --model MODEL, -m MODEL
+                        Choose mode -> 0:EfficinetNet, 1:MobileNetV2,
+                        2:ResNext
+  --maxrange MAXRANGE, -r MAXRANGE
+                        Choose compute resource -> default:2, increase number
+                        if has more resource
+  --batch_size BATCH_SIZE, -b BATCH_SIZE
+                        Choose batch size, default as 32
+  --sample_num SAMPLE_NUM, -s SAMPLE_NUM
+                        Hyperparameter sample number, default as 10
+```
