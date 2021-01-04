@@ -10,14 +10,14 @@ In this project, we try to implement a compound scaling method proposed by「Eff
 ## Hardware
 The following specs were used to create the original solution.
 
-Ubuntu 16.04
-Intel® Xeon® Gold 6136 Processor @ 3.0GHHz
-1x NVIDIA NVIDIA TESLA V100 32GB
+Ubuntu 16.04  
+Intel® Xeon® Gold 6136 Processor @ 3.0GHHz. 
+1x NVIDIA NVIDIA TESLA V100 32GB  
 
 
 ## Requirements
 Using Anaconda is strongly recommended.  
-Python >= 3.6(Conda). 
-PyTorch 1.3. 
-torchvision that matches the PyTorch installation. You can install them together at pytorch.org to make sure of this.
-OpenCV, needed by demo and visualization. 
+Python >= 3.6(Conda).   
+PyTorch 1.3.  
+torchvision that matches the PyTorch installation. You can install them together at pytorch.org to make sure of this.  
+OpenCV, needed by demo and visualization.   
