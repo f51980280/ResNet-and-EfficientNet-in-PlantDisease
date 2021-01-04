@@ -57,4 +57,4 @@ optional arguments:
   --sample_num SAMPLE_NUM, -s SAMPLE_NUM, Hyperparameter sample number, default as 10. 
 ```
 Fianlly, you can get the best scaling dimension for your dataset and model.  
-![image] https://github.com/f51980280/ResNet-and-EfficientNet-in-PlantDisease/blob/main/result/mobileNet.png
+![https://github.com/f51980280/ResNet-and-EfficientNet-in-PlantDisease/blob/main/result/mobileNet.png]
