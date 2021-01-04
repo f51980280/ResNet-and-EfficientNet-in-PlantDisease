@@ -1,7 +1,7 @@
 # ResNet and EfficientNet in PlantDisease
 Model Scaling by compound scaling method.  
 [「EfficientNet : Rethinking Model Scaling for Convolutional Neural Networks」](https://arxiv.org/abs/1905.11946)    
-In this project, we try to implement a compound scaling method proposed by「EfficientNet : Rethinking Model Scaling for Convolutional Neural Networks」. It scales a model's depth, width, resolution in a systematic method for enhancing a model’s accuracy. Using this method and analyzing its accuracy and efficiency in ResNet and EfficientNet. We also add MobileNet for evaluation of its performance. After that, we find its compound scaling method still has numerous dimension candidates. Thus, we tried to apply hyper-parameter search with its scaling dimension. Using the PlantDisease Dataset for the model scaling experiment.  
+In this project, we try to implement a compound scaling method proposed by「EfficientNet : Rethinking Model Scaling for Convolutional Neural Networks」. It scales a model's depth, width, resolution in a systematic method for enhancing a model’s accuracy. Using this method and analyzing its accuracy and efficiency in ResNet and EfficientNet. We also add MobileNet for evaluation of its performance. After that, we find its compound scaling method still has numerous dimension candidates. Thus, we tried to apply [hyper-parameter search](https://github.com/optuna/optuna)    with its scaling dimension. Using the PlantDisease Dataset for the model scaling experiment.  
 
 ## We had implement the task base on following backbone modules:
 1. https://pytorch.org/docs/stable/torchvision/index.html 
