@@ -1,2 +1,2 @@
-# Model-Scaling-by-HyperparameterSearch-in-EfficientNet-ResNet-MobileNet
+# ResNet and EfficientNet in PlantDisease
 Model Scaling by compound scaling method
