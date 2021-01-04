@@ -38,7 +38,7 @@ resnet_scaling.py:
   {your env path}/lib/python3.7/site-packages/torchvision/models/resnet.py -> change to resnet.py(resnet_scaling.py)
   
 model.py:  # for EfficientNet scaling
- {your evn path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
+ {your env path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
 ```
 
 ## Use HyperSearch_with_model_scaling.py
