@@ -35,4 +35,4 @@ model.py:
  {your evn path}lib/python3.7/site-packages/efficientnet_pytorch/model.py ->  change to model.py(model.py)
 ```
 
-
+## Use 
